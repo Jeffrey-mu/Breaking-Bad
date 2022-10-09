@@ -23,10 +23,10 @@ getPerson(props.id).then((res) => {
 </script>
 
 <template>
-  <div v-if="show && peroson" w-60 b m-5>
+  <div v-if="show && peroson" w-70 m-5 b="20px #111" box-shadow="4px 4px 5px 10px #333">
     <img :src="peroson.img" alt="" w-60 h-80>
     <div bg="#fff">
-      {{ peroson.name }}
+      <!-- {{ peroson.name }} -->
     </div>
   </div>
 </template>
