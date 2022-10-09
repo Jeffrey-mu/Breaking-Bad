@@ -25,7 +25,9 @@ getPerson(props.id).then((res) => {
 <template>
   <div v-if="show && peroson" w-60 b m-5>
     <img :src="peroson.img" alt="" w-60 h-80>
-    {{ peroson.name }}
+    <div bg="#fff">
+      {{ peroson.name }}
+    </div>
   </div>
 </template>
 
